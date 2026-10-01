@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-export default function App() {
+export default function App() {  
   const [tasks, setTasks] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(true);
